@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --primary-color: #333333;
+    --primary-light: #a3917a;
+    --muted-grey: #7D6F6F;
+    --accent-yellow: #fde444;
+    --heading-font: "Playfair Display", serif;
+    --body-font: "Roboto", sans-serif;
+    --link-fonts: "Quicksand", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-light);
+    font-family: var(--body-font);
+    color: var(--primary-color);
+    padding: 1.8rem;
+}
+
+.container {
+    width: 400px;
+    height: 100px;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    width: 100%;
+
+}
+
+header h1 {
+    font-family: var(--heading-font);
+    font-weight: 900;
+    font-size: 2.6rem;
+    padding: 0.5rem 0;
+}
+
+
+
+.image-container {
+    gap: 1rem;
+    padding: 2rem 0;
+
+}
+
+.profile-picture {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    
+}
+
+.profile-picture img {
+    width:  300px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: right;
+
+}
+
+.phone {
+    text-align: left;
+    padding: 0.5rem 0;
+}
+
+.phone-icon {
+    list-style: none;
+ 
+}
+
+.phone-icon li i {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+
+}
+
+.email {
+    text-align: left;
+    padding: 0.5rem 0;
+}
+
+.email-icon {
+    list-style: none;
+ 
+}
+
+.email-icon li i {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+
+}
+
+.address {
+    text-align: left;
+    padding: 0.5rem 0;
+}
+
+.address-icon {
+    list-style: none;
+ 
+}
+
+.address-icon li i {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+}
+
+.main-title {
+    font-size: 1.8rem;
+    margin: 1.5rem 0;
+}
+
+.profile {
+    margin: 2rem auto;
+}
+
+.profile-text {
+    line-height: 1.5;
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+}
+
+
+.haridustase-list {
+    width: 100%;
+    margin: 1rem 0;
+    list-style: none;
+}
+
+.haridustase-list {
+    list-style: none;
+}
+
+.haridustase-list li {
+    font-size: 1.2rem;
+    margin: 1.2rem auto;
+}
+
+.tööamet {
+    width: 100%;
+    margin: 0.7rem auto;
+    font-size: 1.4rem;
+    font-weight: 550
+}
+
+.töökogemus-list-text {
+    width: 100%;
+    margin: 0.5rem auto;            
+    font-size: 1.2rem;
+   
+}
+
+.sertifikaadid-list li {
+    list-style: none;
+    width: 100%;
+    margin: 0.5rem auto;
+    font-size: 1.2rem;
+
+}
+.oskused-list li {
+    list-style: none;
+    width: 100%;
+    margin: 0.5rem auto;
+    font-size: 1.2rem;
+
+}
+
+footer {
+    width: 100%;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.social-media-list,
+.contact-links-list {
+    list-style: none;
+}
+
+.social-media-list {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+
+.social-media-list li i {
+    font-size: 6.25rem;
+    color: var(--muted-grey);
+}
+
+
+hr {
+    width: 1000px;
+    height: 4px;
+    border: none;
+    border-top: 4px solid var(--muted-grey);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
