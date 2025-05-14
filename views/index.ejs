@@ -15,29 +15,29 @@
          
     <div class="container">
         <div class="name">
-        <h1 class="nimi"></h1><!--James Smith--></h1>
-        <p class="job" style="font-size: 24px;"><!--Robotics Engineer--></p>
-        <p class="age" style="font-size: 24px;"></p><!--Vanus: 30--></p> 
+        <h1 class="nimi"><%= recipe.Name %></h1>
+        <p class="job" style="font-size: 24px;"><%= recipe.Job %><!--Robotics Engineer--></p>
+        <p class="age" style="font-size: 24px;"></p><%= recipe.Age %><!--Vanus: 30--></p> 
         </div>
         
 
         <div class="phone">
             <ul class="phone-icon">
-                <li><i class="fa-solid fa-phone"></i><span>      </span><span class="phone-text"><!--+372 512 3456--></span></li>
+                <li><i class="fa-solid fa-phone"></i><span>      </span><span class="phone-text"><%= recipe.Number %><!--+372 512 3456--></span></li>
                 
             </ul>
         </div>
         
         <div class="email">
             <ul class="email-icon">
-                <li><i class="fa-solid fa-envelope"></i><span>      </span><span class="email-text"><!--james.smith@gmail.com--></span></li>
+                <li><i class="fa-solid fa-envelope"></i><span>      </span><span class="email-text"><%= recipe.Email %><!--james.smith@gmail.com--></span></li>
                 
             </ul>
         </div>
         
         <div class="address">
             <ul class="address-icon">
-        <li><i class="fa-solid fa-location-dot"></i><span>      </span><span class="address-text"><!--Pärnu mnt 123, 11314 Tallinn, Eesti--></span</li>
+        <li><i class="fa-solid fa-location-dot"></i><span>      </span><span class="address-text"><%= recipe.Address %><!--Pärnu mnt 123, 11314 Tallinn, Eesti--></span</li>
             </ul>
         </div>
     
@@ -135,7 +135,7 @@
     </div>
 
     <script src="app.js"></script>
-    <script src="cv.js"></script>
+    <!--<script src="cv.js"></script>-->
     
 </body>
 </html>
